@@ -98,7 +98,10 @@
                     <!-- TO DO: Add the video from the files below using HTML5 -->
                         <img src="images/square-red-blue.jpg"  alt=" width="400"  height="400">
                         <img src="images/memphis-recording-service.jpg" alt="this is a neon sign in white and red that says Memphis Recording Service "width="400" height="400"
-                        
+                        <video>controls >width="425"</video>
+                            <source src="video/video.mp4" type="video.mp4"
+                                <text> Your browser does not support this video format go back to the beginning and refresh the page.</text>
+
                     <a href="https://www.pexels.com/video/laptop-use-as-controller-for-a-modern-sound-system-3134599/" class="credit">Video by Caleb Oquendo</a>
                 </section>
 
@@ -112,6 +115,8 @@
 
             <section id="favicon">
                 <h2>Adding a Favicon to Your Web Page</h2>
+                <link rel=""shortcut ico" href=""images/favicon.ico" type=""images/x-icon">
+                <link rel=""icon" href="images/favicon.ico" type="images x-icon">
                 <p>A favicon serves a lot of purposes, as you saw in our lecture today. You can find the original png that we will use to create our favicon inside of the images folder. You can easily convert it to a favicon file type on the <a href="https://www.favicon-generator.org/" target="_blank">Favicon Generator website</a>. Be sure to select to only generate the 16x16 favicon with the options below the file upload.</p>
                 <p>Please follow the instructions in class to get this working.</p>
             </section>
@@ -127,7 +132,7 @@
                 <p>In HTML, tables are used for tabular data. Think of data similar to a schedule or what you might find easier to read in a spreadsheet format. Tables can cause issues on smaller screens, as they aren't responsive, so consider that if you add them to a page. If they will be small enough to fit on the screen, even with their data, you should be fine.</p>
                 <table>
                     <!-- TO DO: Complete the code below to create a caption for this table -->
-                    Hours of Operation
+                    <caption>Hours of Operation</caption>
 
                     <thead>
                         <tr>
@@ -148,7 +153,9 @@
 
                     <tr>
                         <!-- TO DO: Complete the code below to create a cell that will span all columns -->
-                        <!-- Wednesday - <span class="bold">Closed</span> -->
+                        <td>
+                            colspan="2"><!-- Wednesday - <span class="bold">Closed</span> -->
+                        </td>
                     </tr>
 
                     <tr>
@@ -164,7 +171,11 @@
                     <tr>
                         <td>Saturday</td>
                         <!-- TO DO: Complete the code below to create a cell that will span two rows -->
-                        <td rowspan="2"><span>Closed</span> By Appointment Only</td>
+                        <td rowspan="2"><span>Closed</span>
+                            <td>
+                                Sunday</td>
+                            <td>
+                                By Appointment Only</td>
                     </tr>
 
                     <tr>
